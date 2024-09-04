@@ -1,7 +1,3 @@
-Here’s a README template for your COVID-19 data analysis project:
-
----
-
 # COVID-19 Data Analysis Project
 
 This project involves analyzing COVID-19 data, focusing on understanding the spread of the virus, its impact on different populations, and the progress of vaccination efforts globally.
