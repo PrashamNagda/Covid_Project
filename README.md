@@ -13,6 +13,7 @@ This project involves analyzing COVID-19 data, focusing on understanding the spr
   - [Countries with the Highest Death Count per Population](#countries-with-the-highest-death-count-per-population)
   - [Vaccination Progress](#vaccination-progress)
   - [Global Trends](#global-trends)
+- [Tableau Dashboard](#tableau-dashboard)
 - [Creating Views for Visualization](#creating-views-for-visualization)
 - [Conclusion](#conclusion)
 
@@ -86,6 +87,14 @@ ORDER BY 1, 2;
 ```
 Provides a global overview of COVID-19 trends, including total cases, deaths, and death percentages by date.
 
+## Tableau Dashboard
+
+To visualize the data and gain further insights, a Tableau dashboard has been created. The dashboard provides interactive charts and graphs based on the SQL queries and analysis performed in this project. 
+
+You can view the Tableau dashboard [here](https://public.tableau.com/views/CovidDashboard_17254511922090/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+
+![Screenshot 2024-09-04 173043](https://github.com/user-attachments/assets/61f5a353-19de-495f-b0ab-fb26303dc103)
+
 ## Creating Views for Visualization
 ```sql
 CREATE VIEW PercentPopulationVaccinated AS
@@ -101,3 +110,5 @@ This view stores the vaccination data for further visualization and analysis.
 ## Conclusion
 
 This project provides insights into the COVID-19 pandemic's impact across different regions, highlighting key trends in cases, deaths, and vaccinations. The SQL queries used in this analysis can serve as a foundation for further exploration and visualization of the data.
+
+---
